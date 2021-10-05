@@ -27,7 +27,7 @@ export function SubscribeButton({priceId} :SubscribeButtonProps ){
         }catch(err){
            
             console.log(err)
-            alert('aqui que está errado Calebe')
+            alert(err.message)
           
         }
     }
